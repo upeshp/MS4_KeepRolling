@@ -1,45 +1,53 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+## Milestone 4 – Keep Rolling Website
 
-Welcome USER_NAME,
+I am creating a website for Brazilian Jiu Jitsu enthusiasts to purchase instructionals/courses and clothing/merchandise.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
 
-## Gitpod Reminders
+## UX
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+_Overview_
 
-`python3 -m http.server`
+The aim of the project is to create an ecommerce website where users can purchase items of their choice. 
+The website is created for those who train Brazilian Jiu Jitsu, who are often looking for courses/instructional material they can use to improve their game, especially in recent times where many are in lockdown, and unable to train Jiu Jitsu.
+The website will also sell Jiu Jitsu merchandise, such as clothing they can use whilst training.
+Users will want to easily be able to browse and purchase items, and the website owner will want to showcase their products postiviely to drive sales. 
+The website is designed to be suitable for use on all devices, from desktop to mobile. 
 
-A blue button should appear to click: *Make Public*,
+_User Stories_
 
-Another blue button should appear to click: *Open Browser*.
+As a user of the site:
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+	*	I want to understand the website's purpose
+	*	I want to be easily able to view a list of all products by category
+	* 	I want to be able to view specific product details
+	*	I want to be easily able to purchase products
 
-A blue button should appear to click: *Make Public*,
+As the site owner:
 
-Another blue button should appear to click: *Open Browser*.
+	* 	I want the website to provide a platform for users to purchase items
+	*	I want to be able to add/edit/delete products
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+_5 S's_
 
-## Updates Since The Instructional Video
+**Strategy** 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+The primary goal is to create a ecommerce website for Brazilian Jiu Jitsu enthusiasts to purchase instructionals/courses and clothing/merchandise.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+**Scope** 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+The overall look and feel of the website was influenced by researching similar websites (credits at end):
+    -   These are simple/clean in design
+    -   There is a hero image explaining the site's purpose, along wih some introductory text
+    -   There is a menu where you can display product listings by category (usually on the navbar)
+    -   There is an icon to login and/or display your shopping bag on the navbar
+    -   Products are listed in a "grid" style with each product having it's own image and high-level description
+    -   Clicking on the product image takes you to the product page with it's detailed description
+    -   There is a search box to search for products (usually on the navbar)
+    -   Selected items are placed in a "shopping bag" page where users can see items selected for purchase before confirming their buy
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+**Structure** 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+**Skeleton** 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+**Surface** 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
