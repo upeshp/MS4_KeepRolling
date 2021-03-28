@@ -7,7 +7,7 @@ body {
     background-size: cover;
     height: calc(100vh - 164px);
     /* color: #555; */
-    font-family: 'Lato';
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .info-container {
@@ -24,6 +24,7 @@ body {
 
 .logo-font {
     text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
 }
 
 .main-logo-link {
@@ -180,11 +181,11 @@ input[name='q']::placeholder {
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
-/* @media (min-width: 1200px) {
+@media (min-width: 1200px) {
   .container {
     max-width: 80%;
   }
-} */
+} 
 
 /* Allauth form formatting */
 
