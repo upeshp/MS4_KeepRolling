@@ -38,6 +38,19 @@ body {
 
 }
 
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0rem;
+}
+
+.card-footer {
+    padding: 0rem;
+    background-color: rgba(0,0,0,.03);
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+
 .main-logo-link {
     width: fit-content;
 }
