@@ -6,10 +6,13 @@ body {
     background: url('/media/joshua-jamias-qmdqe3Cs5Og-unsplash.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: #555;
+    /* color: #555; */
     font-family: 'Lato';
 }
 
+.info-container {
+    background: #fff;
+}
 /* from Bulma */
 .icon {
     align-items: center;
