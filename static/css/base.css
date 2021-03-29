@@ -7,7 +7,7 @@ html {
 /* HOMEPAGE HERO-IMAGE */
 
 body {
-    background: url('/media/joshua-jamias-qmdqe3Cs5Og-unsplash.jpg') no-repeat center center fixed;
+    background: url('/media/Jiu_jitsu_submission.jpg') no-repeat center center fixed; /* source: https://commons.wikimedia.org/wiki/File:Jiu_jitsu_submission.png */
     background-size: cover;
     height: calc(100vh - 164px);
     font-family: 'Nunito Sans', sans-serif;
