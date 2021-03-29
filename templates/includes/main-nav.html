@@ -1,35 +1,20 @@
+<!-- navbar menu items -->
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item dropdown">
-            <a class=" font-weight-bold nav-link text-white mr-5" href="{% url 'home' %}" >
+            <a class="font-weight-bold nav-link text-white mr-5" href="{% url 'home' %}" >
                 Home
             </a>
-            <!-- <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item ">By Rating</a>
-                <a href="" class="dropdown-item ">By Category</a>
-                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
-            </div> -->
         </li>
-
         <li class="nav-item dropdown">
-            <a class=" font-weight-bold nav-link text-white mr-5" href="{% url 'products' %}?category=Courses">Courses</a>
-            <!-- <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Activewear &amp; Essentials</a>
-                <a href="" class="dropdown-item">Jeans</a>
-                <a href="" class="dropdown-item">Shirts</a>
-                <a href="" class="dropdown-item">All Clothing</a>
-            </div> -->
+            <a class=" font-weight-bold nav-link text-white mr-5" href="{% url 'products' %}?category=Courses">
+                Courses
+            </a>
         </li>
-
         <li class="nav-item dropdown">
-            <a class=" font-weight-bold nav-link text-white mr-5" href="{% url 'products' %}?category=Clothing">Clothing</a>
-            <!-- <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Bed &amp; Bath</a>
-                <a href="" class="dropdown-item">Kitchen &amp; Dining</a>
-                <a href="" class="dropdown-item">All Homeware</a>
-            </div> -->
+            <a class=" font-weight-bold nav-link text-white mr-5" href="{% url 'products' %}?category=Clothing">
+                Clothing
+            </a>
         </li>
-
     </ul>
 </div>
