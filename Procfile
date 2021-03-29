@@ -1,1 +1,1 @@
-web: gunicorn MS4_KeepRolling.wsgi:application
+web: gunicorn keep_rolling.wsgi:application
