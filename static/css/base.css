@@ -75,6 +75,14 @@ body {
     -o-transition: all 0.35s ease-in-out;
 }
 
+.footer-text {
+    font-size: small;
+}
+
+.footer-header {
+    font-weight: bold;
+}
+
 .shop-now-button {
     background: black;
     color: white;
