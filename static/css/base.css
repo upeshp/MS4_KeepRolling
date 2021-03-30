@@ -4,14 +4,23 @@ html {
     height: 100%;
 }
 
+/* LINKS */
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu-links {
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* HOMEPAGE HERO-IMAGE */
 
 body {
     background: url('/media/Jiu_jitsu_submission.jpg') no-repeat center center fixed; /* source: https://commons.wikimedia.org/wiki/File:Jiu_jitsu_submission.png */
     background-size: cover;
     height: calc(100vh - 164px);
-    /* font-family: 'Nunito Sans', sans-serif;
-    font-family: 'Montserrat', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
 }
 
 .hero-font {
@@ -32,9 +41,9 @@ body {
 
 /* LOGO */
 
-.logo-font {
-    /* font-family: 'Poppins', sans-serif; */
-    font-family: 'Oswald', sans-serif;
+.main-logo-link {
+    width: fit-content;
+    font-family: font-family: 'Oswald', sans-serif;
 }
 
 .boxed {
@@ -223,9 +232,7 @@ body {
 
 /* MISC */
 
-.main-logo-link {
-    width: fit-content;
-}
+
 
 .text-black {
     color: #000 !important;
