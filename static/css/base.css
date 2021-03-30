@@ -34,6 +34,10 @@ body {
     letter-spacing: 3px;
 }
 
+.homepage-info {
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* ICONS */
 
 .icon {
@@ -94,10 +98,11 @@ body {
 
 .footer-text {
     font-size: small;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .footer-header {
-    font-weight: bold;
+    font-weight: normal;
 }
 
 /* BUTTONS */
