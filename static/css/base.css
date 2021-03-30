@@ -15,7 +15,6 @@ html {
 }
 
 .header-info {
-    font-family: 'Montserrat', sans-serif;
     letter-spacing: 1px;
 }
 
@@ -29,7 +28,6 @@ body {
 }
 
 .hero-font {
-    /* font-family: 'Poppins', sans-serif; */
     font-family: 'Oswald', sans-serif;
     letter-spacing: 3px;
 }
