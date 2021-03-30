@@ -105,6 +105,12 @@ body {
     font-weight: normal;
 }
 
+/* PRODUCT DETAILS */
+
+.product-details {
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* BUTTONS */
 
 .shop-now-button {
