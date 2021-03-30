@@ -4,7 +4,7 @@ html {
     height: 100%;
 }
 
-/* LINKS */
+/* HEADER LINKS & OTHER */
 
 .nav-link {
     font-family: 'Oswald', sans-serif;
@@ -12,6 +12,11 @@ html {
 
 .menu-links {
     font-family: 'Oswald', sans-serif;
+}
+
+.header-info {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
 }
 
 /* HOMEPAGE HERO-IMAGE */
