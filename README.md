@@ -318,6 +318,7 @@ AWS is a cloud based storage service, used to store static files and images:
 6.	Once created, click on the bucket and enter the following settings:
 	-	Under Properties, turn on static website hosting
 	- 	Under Permissions, paste in the CORS configuration:
+    
 	```
         [
  		    {
@@ -332,7 +333,8 @@ AWS is a cloud based storage service, used to store static files and images:
      			    ],
     		    "ExposeHeaders": []
  		    }
-	    ] ```
+	    ] 
+    ```
 
     -	Go to the bucket policy tab and select, policy generator so we can create a security policy for this bucket.
     -	The policy type is going to be s3 bucket policy, allow all principals by using a star, and the action will be, get object
