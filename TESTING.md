@@ -1,6 +1,5 @@
 ## Testing
 
-
 _Code Validators_
 
 All code passed validation tests from the [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) validation websites.
@@ -24,14 +23,14 @@ Site User | Easily register for account | Have an account/view my profile | Simp
 Site User | Easily login/logout | Access my account | Option to login/logout on clicking "person" icon 
 Site User | Easily recover my password | Recover access to account | "Forgot password" link on login page enables password reset
 Site User | Receive email confirmation after registering | Verify registration successful | Emails setup to send on registration
-Site User | Have a personalised user profile | View order history/save payment info | Profile page availible after login, shows order history/payment info
+Site User | Have a personalised user profile | View order history/save payment info | Profile page available after login, shows order history/payment info
 Shopper | Search for a product | Find a specific product | Functioning search form included in navbar, can search by name/description
 Shopper | Easily see what I've searched for | Quickly decide if what I want is there | Search form returns results listing
 Shopper | Select size/qty of product when purchasing | Ensure I don't select wrong product/size | Size/qty selector forms included on individual product page
-Shopper | View bag items | See total cost/all items I'll receive | Bag availible on clicking "bag" icon, lists products/total spend
+Shopper | View bag items | See total cost/all items I'll receive | Bag available on clicking "bag" icon, lists products/total spend
 Shopper | Adjust qty of items in my bag | Easily make changes to bag before checkout | In bag update/remove items included under qty selector
 Shopper | Easily enter payment info | Checkout quickly | Simple form for entering details/card info on checkout form
-Shopper | View an order confimation after checkout | Ensure no mistakes made | Order confirmation on profile page and emailed to user
+Shopper | View an order confirmation after checkout | Ensure no mistakes made | Order confirmation on profile page and emailed to user
 Store Owner | Add a product | Add new items to store | Admin user is able to add products via form
 Store Owner | Edit/update a product | Change product details | Admin user is able to edit products via product listings/product detail pages
 Store Owner | Delete a product | Remove items not for sale | Admin user is able to delete products via product listings/product detail pages
@@ -76,7 +75,7 @@ COURSES/CLOTHING PAGES
 
 PRODUCT DETAIL
 
-- Shows indivdual product details
+- Shows individual product details
 - Form to select qty/size
 - Button to add to bag
 - Checkout button takes you to checkout
@@ -111,11 +110,11 @@ It is noted that the homepage image on small screens isn't as visually appealing
 
 _Bugs_
 
-- No seperate html template for courses/clothing, meaning searching brings back all items, regardless of category.
+- No separate html template for courses/clothing, meaning searching brings back all items, regardless of category.
 - Homepage image doesn't look ideal on very small screens.
 - Navbar menu items on dropdown are quite small/close together on very small screens.
 - No custom error 404/500 pages included.
-- Lodaing speed could be improved upon.
+- Loading speed could be improved upon.
 - Although the styling has been kept minimal for a simple design, it is recognised further styling could be included to improve presentation of site, for example making more features red like the prices/buttons, or including animation effects for the product cards etc.
 - Due to time constraints, the above will not be addressed in this version, but will be addressed in future versions of the site.
 
