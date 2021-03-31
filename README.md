@@ -77,13 +77,13 @@ _Deployment to Heroku_
 Heroku is used to deploy the app:
 
 1.	When logged into your account, create new app:
-    ![Picture1](static/readme-image/readme/Picture1.png)
+    ![Picture1](static/readme-image/Picture1.png)
 
 2.	Choose app name and your closest region
-	![Picture2](static/readme-image/readme/Picture2.png) 
+	![Picture2](static/readme-image/Picture2.png) 
 
 3.	On Resources tab, provision Heroku Postgres (use the free plan)
-    ![Picture3](static/readme-image/readme/Picture3.png) 
+    ![Picture3](static/readme-image/Picture3.png) 
 	 
 4.	Back in gitpod, install the following via these commands:
 	 - ```pip3 install dj database url```
@@ -93,10 +93,10 @@ Heroku is used to deploy the app:
 	- ```pip3 freeze > requirements.txt```
 
 6.	To get stores database setup, go to settings.py an import dj_database_url:
-    ![Picture6](static/readme-image/readme/Picture6.png) 
+    ![Picture6](static/readme-image/Picture6.png) 
 
 7.	Down in the databases setting, comment out default configuration and replace the default database with a call to dj_database_url.parse, and give it the database URL from Heroku in the brackets (from your config variables in your app settings tab): 
-    ![Picture7](static/readme-image/readme/Picture7.png) 
+    ![Picture7](static/readme-image/Picture7.png) 
 
 8.	Now run all migrations again, by running:
 	- ```python 3 manage.py migrate```
@@ -105,12 +105,12 @@ Heroku is used to deploy the app:
 	- ```python3 manage.py create superuser```
 
 10.	Back in settings.py remove the Heroku database config, and uncomment the original so our database URL doesn't end up in version control:
-    ![Picture10](static/readme-image/readme/Picture10.png) 
+    ![Picture10](static/readme-image/Picture10.png) 
 
 11.	Then commit to github.
 
 12.	Use an if statement in settings.py, so when app is running on Heroku, where database URL environment variable is defined, we connect to Postgres, otherwise we connect to sqlite:
-    ![Picture12](static/readme-image/readme/Picture12.png) 
+    ![Picture12](static/readme-image/Picture12.png) 
 
 13. Install unicorn, which will act as our webserver, then freeze that into requirements.txt:
 	- ```pip3 install gunicorn```
@@ -120,7 +120,7 @@ Heroku is used to deploy the app:
 	```web: gunicorn APP_NAME.wsgi:application```
 
 15.	Temporarily disable collectstatic:
-    ![Picture15](static/readme-image/readme/Picture15.png) 
+    ![Picture15](static/readme-image/Picture15.png) 
 
 16.	Add the hostname of our Heroku app to allowed hosts in settings.py, add localhost aswell:
 	ALLOWED_HOSTS = ['YOUR-APP-NAME.herokuapp.com', 'localhost']
@@ -128,18 +128,18 @@ Heroku is used to deploy the app:
 17.	Then add/commit changes to github.
 
 18.	To deploy to Heroku, enter (you may need to initialize your Heroku git remote if you created your app on the website rather than the CLI):
-    ![Picture18](static/readme-image/readme/Picture18.png) 
+    ![Picture18](static/readme-image/Picture18.png) 
 
 19.	To automatically deploy on Heroku when we commit to github, on your Heroku dashboard go to Deploy > select Github, and search for your repository, then click Connect:
-    ![Picture19](static/readme-image/readme/Picture19.png) 
+    ![Picture19](static/readme-image/Picture19.png) 
 
 20.	Click to enable automatic deploys:
-    ![Picture20](static/readme-image/readme/Picture20.png) 
+    ![Picture20](static/readme-image/Picture20.png) 
 
 21.	You need a new secret key to enter in you Heroku Config Vars (you can use an online Django secret key generator to do this):
-    ![Picture21](static/readme-image/readme/Picture21.png) 
+    ![Picture21](static/readme-image/Picture21.png) 
 
 22.	Now you can replace the secret key in settings.py with a call to get this from the environment:
-    ![Picture22](static/readme-image/readme/Picture22.png) 
+    ![Picture22](static/readme-image/Picture22.png) 
 
 23.	Commit/push these changes to github
