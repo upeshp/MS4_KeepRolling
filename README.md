@@ -164,7 +164,7 @@ The following features were considered during the build of the site, however due
 - More product categories, for example accessories.
 - More tailored toast messages.
 - For courses products, it is not neccesary to include a quantiy selector, as there isn't a need to buy more than 1 online course, so this can be removed from the courses products.
-- See unresolved bugs section in [Testing](...) for further features left to implement.
+- See unresolved bugs section in [Testing](https://github.com/upeshp/MS4_KeepRolling/blob/master/TESTING.md) for further features left to implement.
 
 ## Technologies Used
 
