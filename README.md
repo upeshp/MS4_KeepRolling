@@ -96,7 +96,7 @@ The website will consist of the following:
 
 **Skeleton** 
 
-[Wireframes](https://github.com/upeshp/MS4_KeepRolling/tree/master/assets/docs/wireframe)
+[Wireframes - includes data schema](https://github.com/upeshp/MS4_KeepRolling/tree/master/assets/docs/wireframe)
 
 There are some minor changes to the deployed site and the initial wireframes, these changes were made mainly due to time constraints:
 - Homepage: consists of hero-image only, no addditional "about" section (included additional "about" info in footer instead).
