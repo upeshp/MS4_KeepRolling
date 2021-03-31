@@ -53,6 +53,7 @@ body {
     font-family: font-family: 'Oswald', sans-serif;
 }
 
+/* https://www.thesitewizard.com/css/rectangular-box-border.shtml */
 .boxed {
   border: 1px solid white;
   border-width: medium;
