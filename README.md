@@ -171,25 +171,26 @@ AWS is a cloud based storage service, used to store static files and images:
 6.	Once created, click on the bucket and enter the following settings:
 	-	Under Properties, turn on static website hosting
 	- 	Under Permissions, paste in the CORS configuration:
-	```[
- 		{
-     			"AllowedHeaders": [
-         		"Authorization"
-     			],
-     			"AllowedMethods": [
-       			"GET"
-     			],
-     			"AllowedOrigins": [
-         		"*"
-     			],
-    			"ExposeHeaders": []
- 		}
-	]```
--	go to the bucket policy tab and select, policy generator so we can create a security policy for this bucket.
--	The policy type is going to be s3 bucket policy, allow all principals by using a star, and the action will be, get object
--	copy the ARN which stands for Amazon resource name from bucket policy tab and paste it into the ARN box here at the bottom, then click Add Statement, then click Generate Policy then copy this policy into the bucket policy editor.
--	Before clicking Save, because we want to allow access to all resources in this bucket, add add a slash star onto the end of the resource key
--	go to the access control list tab, and set the list objects permission for everyone under the Public Access section
+	```
+        [
+ 		    {
+     		    "AllowedHeaders": [
+         		    "Authorization"
+     			    ],
+     		    "AllowedMethods": [
+       			    "GET"
+     			    ],
+     		    "AllowedOrigins": [
+         		    "*"
+     			    ],
+    		    "ExposeHeaders": []
+ 		    }
+	    ] ```
+    -	Go to the bucket policy tab and select, policy generator so we can create a security policy for this bucket.
+    -	The policy type is going to be s3 bucket policy, allow all principals by using a star, and the action will be, get object
+    -	Copy the ARN which stands for Amazon resource name from bucket policy tab and paste it into the ARN box here at the bottom, then click Add Statement, then click Generate Policy then copy this policy into the bucket policy editor.
+    -	Before clicking Save, because we want to allow access to all resources in this bucket, add add a slash star onto the end of the resource key
+    -	Go to the access control list tab, and set the list objects permission for everyone under the Public Access section
 
 7.	With our s3 bucket ready to go. Now we need to create a user to access it. do this through another service called Iam which stands for Identity and Access Management.
 
