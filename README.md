@@ -27,6 +27,27 @@ As the site owner:
 	* 	I want the website to provide a platform for users to purchase items
 	*	I want to be able to add/edit/delete products
 
+As a/an | I want to be able to | So that I can 
+------- | -------- | ------- 
+Shopper | View a list of products | Select some to purchase 
+Shopper | View individual product details | See the price/description/rating/sizes 
+Shopper | View the total of my purchases at any time | Avoid spending too much 
+Site User | Easily register for account | Have an account/view my profile 
+Site User | Easily login/logout | Access my account  
+Site User | Easily recover my password | Recover access to account 
+Site User | Receive email confirmation after registering | Verify registration successful 
+Site User | Have a personalised user profile | View order history/save payment info 
+Shopper | Search for a product | Find a specific product 
+Shopper | Easily see what I've searched for | Quickly decide if what I want is there
+Shopper | Select size/qty of product when purchasing | Ensure I don't select wrong product/size 
+Shopper | View bag items | See total cost/all items I'll receive 
+Shopper | Adjust qty of items in my bag | Easily make changes to bag before checkout 
+Shopper | Easily enter payment info | Checkout quickly 
+Shopper | View an order confimation after checkout | Ensure no mistakes made 
+Store Owner | Add a product | Add new items to store 
+Store Owner | Edit/update a product | Change product details
+Store Owner | Delete a product | Remove items not for sale 
+
 _5 S's_
 
 **Strategy** 
@@ -47,10 +68,137 @@ The overall look and feel of the website was influenced by researching similar w
 
 **Structure** 
 
+The website will consist of the following:
+
+1. Homepage:
+	- Hero image with explanatory text giving high-level overview of site.
+	- Navbar with facility to search products, links to view products by categories, login/signup to their account, and view their shopping bag.
+	- Links to shopping pages highlighted/centred in page to encourage users to start shopping.
+	- Footer with more info on the website, and contact details/social links.
+
+2. Products:
+	- Two dedicated product pages for each product category, listing all products in that catgeory in a "card" format, each card being clickable to display that particular products detatils.
+
+3. Product Detail:
+	- Per above, will display the individual product details, and give the user the facility to "add to bag"
+
+4. Shopping Bag:
+	- Page to display all products in bag, before making a purchase.
+
+5. Purchase/checkout:
+	- Page for user to facilitate purchase, allowing entering oof payment details. 
+
+6. Login/Signup:
+	- Form for users to login if existing user or signup if new user.
+
+7. Profile:
+	- For existing users, shows personal details (editable by user) and order history.
+
 **Skeleton** 
+
+Link to wireframes.
+
+There are some minor changes to the deployed site and the initial wireframes, these changes were made mainly due to time constraints:
+
+	- Homepage: consists of hero-image only, no addditional "about" section (included additional "about" info in footer instead).
+	- Homepage: no additional links to "Courses" or "Clothing" at bottom of page, felt unneccesary as hero-image already has these links.
 
 **Surface** 
 
+	- The colour scheme will be influenced from the research detailed in the scope section above.
+	- The websites tend to use simple colour schemes, with only 2/3 colours often being used.
+	- This website will use black, red, white, and grey.
+	- This combination is used to keep the site looking simple/clean.
+	- Red is associated with feelings of excitement, and wanting to take action, which is suited to this website. Source: Crazy Egg
+	- I wanted a bold dynamic font for the main logo headers/buttons etc, with a more simple easy-to-read text for any longer texts like product descriptions. After experimenting with various font combinations, I settled with Oswald/Montserrat combination, as this met these requirements.
+
+## Features
+
+_Existing_
+
+Homepage:
+ - The site is styled using bootstrap for responsive design
+ - Fixed navbar, incorporating search form and site navigation links
+ - Buttons linking to product areas of the site (categories used to show appropriate products)
+ - Footer with social media links
+ - Toasts used to display info for user on login/logout etc
+
+Products:
+ - Crispy forms used to display product info
+ - Bootstrap card format to display product image/details
+
+Product Details:
+ - Crispy forms used to display product info
+ - Quantity selector input form to add products to bag
+
+Bag:
+- Crispy forms used to display product info
+- Grid/table format used to display products
+
+Checkout:
+- Input form to enter details
+- Stripe card details form to facilitate payment
+
+Login/Logout:
+- Input forms for logging in/signing up
+
+Profile:
+- Crispy forms to display user info/order history
+- Input forms for amending details
+
+Other:
+- The website has been linked to Amazon Web Services to store any static files/images there automatically
+- The website has been linked to Stripe to facilitate payments
+- The website has been linked to a Gmail account to facilitate sending of emails on registering/placing an order
+
+_Left to Implement_
+
+The following features were considered during the build of the site, however due to time constraints, these were not included in this version, but could be added at a later date:
+
+- More details included in homepage explaining the site.
+- More dynamic media on the homepage i.e. videos for better user experience.
+- Actual contact form for user queries (email address included in footer to partially address this).
+- More product details, particularly for courses, could include a video preview, and a curriculum detailing what the course covers.
+- An actual account so users can signup for mailing lists/discounts etc.
+- More professional logo.
+- Although I believe the search feature is more likely to be used for this type of site, filtering/sorting options could be included on the product listing pages, i.e. sorting by rating/price, for better user experience.
+- More product categories, for example accessories.
+- More tailored toast messages.
+- For courses products, it is not neccesary to include a quantiy selector, as there isn't a need to buy more than 1 online course, so this can be removed from the courses products.
+- See unresolved bugs section in [Testing](...) for further features left to implement.
+
+## Technologies Used
+
+Languages:
+- 	HTML5
+-	CSS3
+-	Javascript
+-	Python 
+
+Frameworks:
+- 	Django
+-   Bootstrap
+-   Jquery
+
+Storing/editing/deploying Code:
+-	Gitpod
+-	Github
+-   Heroku
+
+Storage/Database:
+-   Amazon Web Services (to store static/image files)
+- 	Heroku Postgres (for database)
+
+Payment Handling:
+- 	Stripe (for facilitating payments)
+
+Other:
+-   Google Fonts
+- 	Font Awesome
+
+## Testing
+
+Testing documentation can be found [here](...).
 
 ## Deployment
 
@@ -186,6 +334,7 @@ AWS is a cloud based storage service, used to store static files and images:
     		    "ExposeHeaders": []
  		    }
 	    ] ```
+
     -	Go to the bucket policy tab and select, policy generator so we can create a security policy for this bucket.
     -	The policy type is going to be s3 bucket policy, allow all principals by using a star, and the action will be, get object
     -	Copy the ARN which stands for Amazon resource name from bucket policy tab and paste it into the ARN box here at the bottom, then click Add Statement, then click Generate Policy then copy this policy into the bucket policy editor.
@@ -240,3 +389,32 @@ AWS is a cloud based storage service, used to store static files and images:
     ![Picture25a](static/readme-image/Picture25a.png) 
 
 26.	Add/commit changes in github.
+
+_Tutorials_
+
+I used the Code Institute Boutiqu Ado Mini-Project by [Chris Zielinski](https://code-institute-room.slack.com/team/U9QSX6HCG) as the main basis of my own project.
+
+_Slack Community_
+
+I was able to resolve some issues encountered with deployment after searching on Slack in the Code Institute community, in particular how to login to Heroku using the CLI terminal, and creating a superuser once the app is deployed to Heroku.
+
+_Guides_
+
+I used [The Site Wizard](https://www.thesitewizard.com/css/rectangular-box-border.shtml) to help with creating a boxed logo.
+ 
+_Research_
+
+I used the following websites as a reference in the design process:
+
+ - [The Grapple Club](https://thegrappleclub.com/)
+ - [Tatami Fightwear](https://www.tatamifightwear.com/)
+
+_Images_
+
+Hero image on homepage from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jiu_jitsu_submission.png).
+
+Product images are from [The Grapple Club](https://thegrappleclub.com/) and [Tatami Fightwear](https://www.tatamifightwear.com/): no copyright infringement is intended, this project is purely for educational purposes only, the images will be removed/changed after the project is submitted and graded.
+
+_Text_
+
+Text in the hero image and product descriptions have been amended from [The Grapple Club](https://thegrappleclub.com/) and [Tatami Fightwear](https://www.tatamifightwear.com/): no copyright infringement is intended, this project is purely for educational purposes only, the text will be removed/changed after the project is submitted and graded.
