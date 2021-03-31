@@ -57,14 +57,14 @@ The primary goal is to create a ecommerce website for Brazilian Jiu Jitsu enthus
 **Scope** 
 
 The overall look and feel of the website was influenced by researching similar websites (credits at end):
-    -   These are simple/clean in design
-    -   There is a hero image explaining the site's purpose, along wih some introductory text
-    -   There is a menu where you can display product listings by category (usually on the navbar)
-    -   There is an icon to login and/or display your shopping bag on the navbar
-    -   Products are listed in a "grid" style with each product having it's own image and high-level description
-    -   Clicking on the product image takes you to the product page with it's detailed description
-    -   There is a search box to search for products (usually on the navbar)
-    -   Selected items are placed in a "shopping bag" page where users can see items selected for purchase before confirming their buy
+-   These are simple/clean in design
+-   There is a hero image explaining the site's purpose, along wih some introductory text
+-   There is a menu where you can display product listings by category (usually on the navbar)
+-   There is an icon to login and/or display your shopping bag on the navbar
+-   Products are listed in a "grid" style with each product having it's own image and high-level description
+-   Clicking on the product image takes you to the product page with it's detailed description
+-   There is a search box to search for products (usually on the navbar)
+-   Selected items are placed in a "shopping bag" page where users can see items selected for purchase before confirming their buy
 
 **Structure** 
 
@@ -96,7 +96,7 @@ The website will consist of the following:
 
 **Skeleton** 
 
-Link to wireframes.
+[Wireframes](https://github.com/upeshp/MS4_KeepRolling/tree/master/assets/docs/wireframe)
 
 There are some minor changes to the deployed site and the initial wireframes, these changes were made mainly due to time constraints:
 - Homepage: consists of hero-image only, no addditional "about" section (included additional "about" info in footer instead).
@@ -197,7 +197,7 @@ Other:
 
 ## Testing
 
-Testing documentation can be found [here](...).
+Testing documentation can be found [here](https://github.com/upeshp/MS4_KeepRolling/blob/master/TESTING.md).
 
 ## Deployment
 
