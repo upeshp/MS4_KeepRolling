@@ -17,15 +17,15 @@ _User Stories_
 
 As a user of the site:
 
-	*	I want to understand the website's purpose
-	*	I want to be easily able to view a list of all products by category
-	* 	I want to be able to view specific product details
-	*	I want to be easily able to purchase products
+*	I want to understand the website's purpose
+*	I want to be easily able to view a list of all products by category
+* 	I want to be able to view specific product details
+*	I want to be easily able to purchase products
 
 As the site owner:
 
-	* 	I want the website to provide a platform for users to purchase items
-	*	I want to be able to add/edit/delete products
+* 	I want the website to provide a platform for users to purchase items
+*	I want to be able to add/edit/delete products
 
 As a/an | I want to be able to | So that I can 
 ------- | -------- | ------- 
@@ -318,7 +318,7 @@ AWS is a cloud based storage service, used to store static files and images:
 6.	Once created, click on the bucket and enter the following settings:
 	-	Under Properties, turn on static website hosting
 	- 	Under Permissions, paste in the CORS configuration:
-    
+
 	```
         [
  		    {
