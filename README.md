@@ -99,18 +99,17 @@ The website will consist of the following:
 Link to wireframes.
 
 There are some minor changes to the deployed site and the initial wireframes, these changes were made mainly due to time constraints:
-
-	- Homepage: consists of hero-image only, no addditional "about" section (included additional "about" info in footer instead).
-	- Homepage: no additional links to "Courses" or "Clothing" at bottom of page, felt unneccesary as hero-image already has these links.
+- Homepage: consists of hero-image only, no addditional "about" section (included additional "about" info in footer instead).
+- Homepage: no additional links to "Courses" or "Clothing" at bottom of page, felt unneccesary as hero-image already has these links.
 
 **Surface** 
 
-	- The colour scheme will be influenced from the research detailed in the scope section above.
-	- The websites tend to use simple colour schemes, with only 2/3 colours often being used.
-	- This website will use black, red, white, and grey.
-	- This combination is used to keep the site looking simple/clean.
-	- Red is associated with feelings of excitement, and wanting to take action, which is suited to this website. Source: Crazy Egg
-	- I wanted a bold dynamic font for the main logo headers/buttons etc, with a more simple easy-to-read text for any longer texts like product descriptions. After experimenting with various font combinations, I settled with Oswald/Montserrat combination, as this met these requirements.
+- The colour scheme will be influenced from the research detailed in the scope section above.
+- The websites tend to use simple colour schemes, with only 2/3 colours often being used.
+- This website will use black, red, white, and grey.
+- This combination is used to keep the site looking simple/clean.
+- Red is associated with feelings of excitement, and wanting to take action, which is suited to this website. Source: Crazy Egg
+- I wanted a bold dynamic font for the main logo headers/buttons etc, with a more simple easy-to-read text for any longer texts like product descriptions. After experimenting with various font combinations, I settled with Oswald/Montserrat combination, as this met these requirements.
 
 ## Features
 
@@ -389,6 +388,8 @@ AWS is a cloud based storage service, used to store static files and images:
     ![Picture25a](static/readme-image/Picture25a.png) 
 
 26.	Add/commit changes in github.
+
+## Credits
 
 _Tutorials_
 
