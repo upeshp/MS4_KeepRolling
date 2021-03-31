@@ -1,6 +1,6 @@
 ## Milestone 4 – Keep Rolling Website
 
-I am creating a website for Brazilian Jiu Jitsu enthusiasts to purchase instructionals/courses and clothing/merchandise.
+I am creating a website for Brazilian Jiu Jitsu enthusiasts to purchase instructional courses and clothing/merchandise.
 
 ## UX
 
@@ -52,7 +52,7 @@ _5 S's_
 
 **Strategy** 
 
-The primary goal is to create a ecommerce website for Brazilian Jiu Jitsu enthusiasts to purchase instructionals/courses and clothing/merchandise.
+The primary goal is to create a ecommerce website for Brazilian Jiu Jitsu enthusiasts to purchase instructional courses and clothing/merchandise.
 
 **Scope** 
 
@@ -108,7 +108,7 @@ There are some minor changes to the deployed site and the initial wireframes, th
 - The websites tend to use simple colour schemes, with only 2/3 colours often being used.
 - This website will use black, red, white, and grey.
 - This combination is used to keep the site looking simple/clean.
-- Red is associated with feelings of excitement, and wanting to take action, which is suited to this website. Source: Crazy Egg
+- Red is associated with feelings of excitement, and wanting to take action, which is suited to this website. [Source: CrazyEgg](https://www.crazyegg.com/blog/website-color-palettes/)
 - I wanted a bold dynamic font for the main logo headers/buttons etc, with a more simple easy-to-read text for any longer texts like product descriptions. After experimenting with various font combinations, I settled with Oswald/Montserrat combination, as this met these requirements.
 
 ## Features
