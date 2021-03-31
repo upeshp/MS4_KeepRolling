@@ -9,7 +9,7 @@ _Overview_
 The aim of the project is to create an ecommerce website where users can purchase items of their choice. 
 The website is created for those who train Brazilian Jiu Jitsu, who are often looking for courses/instructional material they can use to improve their game, especially in recent times where many are in lockdown, and unable to train Jiu Jitsu.
 The website will also sell Jiu Jitsu merchandise, such as clothing they can use whilst training.
-Users will want to easily be able to browse and purchase items, and the website owner will want to showcase their products postiviely to drive sales. 
+Users will want to easily be able to browse and purchase items, and the website owner will want to showcase their products positively to drive sales. 
 The website is designed to be suitable for use on all devices, from desktop to mobile. 
 Due to timing constraints, I will be taking the approach of producing a minimum viable product for this project submission, with the aim of improving/further developing the site in the future.
 
@@ -43,7 +43,7 @@ Shopper | Select size/qty of product when purchasing | Ensure I don't select wro
 Shopper | View bag items | See total cost/all items I'll receive 
 Shopper | Adjust qty of items in my bag | Easily make changes to bag before checkout 
 Shopper | Easily enter payment info | Checkout quickly 
-Shopper | View an order confimation after checkout | Ensure no mistakes made 
+Shopper | View an order confirmation after checkout | Ensure no mistakes made 
 Store Owner | Add a product | Add new items to store 
 Store Owner | Edit/update a product | Change product details
 Store Owner | Delete a product | Remove items not for sale 
@@ -58,11 +58,11 @@ The primary goal is to create a ecommerce website for Brazilian Jiu Jitsu enthus
 
 The overall look and feel of the website was influenced by researching similar websites (credits at end):
 -   These are simple/clean in design
--   There is a hero image explaining the site's purpose, along wih some introductory text
+-   There is a hero image explaining the site's purpose, along with some introductory text
 -   There is a menu where you can display product listings by category (usually on the navbar)
 -   There is an icon to login and/or display your shopping bag on the navbar
--   Products are listed in a "grid" style with each product having it's own image and high-level description
--   Clicking on the product image takes you to the product page with it's detailed description
+-   Products are listed in a "grid" style with each product having its own image and high-level description
+-   Clicking on the product image takes you to the product page with its detailed description
 -   There is a search box to search for products (usually on the navbar)
 -   Selected items are placed in a "shopping bag" page where users can see items selected for purchase before confirming their buy
 
@@ -77,7 +77,7 @@ The website will consist of the following:
 	- Footer with more info on the website, and contact details/social links.
 
 2. Products:
-	- Two dedicated product pages for each product category, listing all products in that catgeory in a "card" format, each card being clickable to display that particular products detatils.
+	- Two dedicated product pages for each product category, listing all products in that category in a "card" format, each card being clickable to display that particular products details.
 
 3. Product Detail:
 	- Per above, will display the individual product details, and give the user the facility to "add to bag"
@@ -99,8 +99,8 @@ The website will consist of the following:
 [Wireframes - includes data schema](https://github.com/upeshp/MS4_KeepRolling/tree/master/assets/docs/wireframe)
 
 There are some minor changes to the deployed site and the initial wireframes, these changes were made mainly due to time constraints:
-- Homepage: consists of hero-image only, no addditional "about" section (included additional "about" info in footer instead).
-- Homepage: no additional links to "Courses" or "Clothing" at bottom of page, felt unneccesary as hero-image already has these links.
+- Homepage: consists of hero-image only, no additional "about" section (included additional "about" info in footer instead).
+- Homepage: no additional links to "Courses" or "Clothing" at bottom of page, felt unnecessary as hero-image already has these links.
 
 **Surface** 
 
@@ -163,7 +163,7 @@ The following features were considered during the build of the site, however due
 - Although I believe the search feature is more likely to be used for this type of site, filtering/sorting options could be included on the product listing pages, i.e. sorting by rating/price, for better user experience.
 - More product categories, for example accessories.
 - More tailored toast messages.
-- For courses products, it is not neccesary to include a quantiy selector, as there isn't a need to buy more than 1 online course, so this can be removed from the courses products.
+- For courses products, it is not necessary to include a quantity selector, as there isn't a need to buy more than 1 online course, so this can be removed from the courses products.
 - See unresolved bugs section in [Testing](https://github.com/upeshp/MS4_KeepRolling/blob/master/TESTING.md) for further features left to implement.
 
 ## Technologies Used
@@ -339,7 +339,7 @@ AWS is a cloud based storage service, used to store static files and images:
     -	Go to the bucket policy tab and select, policy generator so we can create a security policy for this bucket.
     -	The policy type is going to be s3 bucket policy, allow all principals by using a star, and the action will be, get object
     -	Copy the ARN which stands for Amazon resource name from bucket policy tab and paste it into the ARN box here at the bottom, then click Add Statement, then click Generate Policy then copy this policy into the bucket policy editor.
-    -	Before clicking Save, because we want to allow access to all resources in this bucket, add add a slash star onto the end of the resource key
+    -	Before clicking Save, because we want to allow access to all resources in this bucket, add a slash star onto the end of the resource key
     -	Go to the access control list tab, and set the list objects permission for everyone under the Public Access section
 
 7.	With our s3 bucket ready to go. Now we need to create a user to access it. do this through another service called Iam which stands for Identity and Access Management.
@@ -395,7 +395,7 @@ AWS is a cloud based storage service, used to store static files and images:
 
 _Tutorials_
 
-I used the Code Institute Boutiqu Ado Mini-Project by [Chris Zielinski](https://code-institute-room.slack.com/team/U9QSX6HCG) as the main basis of my own project.
+I used the Code Institute Boutique Ado Mini-Project by [Chris Zielinski](https://code-institute-room.slack.com/team/U9QSX6HCG) as the main basis of my own project.
 
 _Slack Community_
 
